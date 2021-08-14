@@ -21,6 +21,7 @@ class EditorScreenTemplate extends StatelessWidget {
         bottom: 5.0.h,
       ),
       child: TextField(
+        decoration: InputDecoration(border: InputBorder.none),
         maxLength: maxLength,
         controller: controller,
         style: kSimpleTextStyle,
@@ -30,6 +31,7 @@ class EditorScreenTemplate extends StatelessWidget {
         maxLines: null,
         autocorrect: false,
         expands: true,
+        textInputAction: TextInputAction.done,
       ),
     );
   }

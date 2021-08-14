@@ -27,6 +27,7 @@ const kEncryptResultAlertTitle = 'Encrypt result is Copied!';
 const kDecryptResultPageTitle = 'Decrypt Result';
 const kDecryptResultAlertTitle = 'Decrypt result is Copied!';
 const kSadSmiley = ':(';
+const kMaxTextFieldLength = 245;
 
 final kBigTextStyle = TextStyle(
   fontSize: 28.sp,

@@ -41,8 +41,12 @@ class _MessageInputPageState extends State<MessageInputPage> {
             padding: EdgeInsets.only(right: 7.w),
             icon: Icons.arrow_forward_ios,
             onPressed: () {
-              String? secretMessage = _myRsaBrain
-                  .encryptTheSetterMessage(messageController.text.trim());
+              String? secretMessage = _myRsaBrain.encryptTheSetterMessage(
+                  (messageController.text.trim().length > kMaxTextFieldLength)
+                      ? messageController.text
+                          .trim()
+                          .substring(0, kMaxTextFieldLength)
+                      : messageController.text.trim());
 
               Navigator.push(
                 context,
@@ -65,7 +69,7 @@ class _MessageInputPageState extends State<MessageInputPage> {
       ),
       body: EditorScreenTemplate(
         controller: messageController,
-        maxLength: 245,
+        maxLength: kMaxTextFieldLength,
       ),
     );
   }
