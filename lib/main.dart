@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:rsa_secured_messages_app/pages/home_page.dart';
 import 'package:sizer/sizer.dart';
-import 'constants.dart';
+import 'utilities/constants.dart';
 
 void main() => runApp(RSAEncrypter());
 

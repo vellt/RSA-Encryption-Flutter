@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:rsa_secured_messages_app/constants.dart';
+import 'package:rsa_secured_messages_app/utilities/constants.dart';
 
 class CopyIconButton extends StatelessWidget {
   const CopyIconButton({

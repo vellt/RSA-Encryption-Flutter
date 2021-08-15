@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:rsa_secured_messages_app/pages/decrypt_input_page.dart';
 import 'package:rsa_secured_messages_app/pages/public_key_input_page.dart';
-import 'package:rsa_secured_messages_app/untils/rsa_brain.dart';
+import 'package:rsa_secured_messages_app/utilities/rsa_brain.dart';
 import 'package:sizer/sizer.dart';
-import 'package:rsa_secured_messages_app/constants.dart';
+import 'package:rsa_secured_messages_app/utilities/constants.dart';
 import 'package:rsa_secured_messages_app/widgets/copy_icon_button.dart';
 import 'package:rsa_secured_messages_app/widgets/navigation_button.dart';
 

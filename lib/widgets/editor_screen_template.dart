@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rsa_secured_messages_app/constants.dart';
+import 'package:rsa_secured_messages_app/utilities/constants.dart';
 import 'package:sizer/sizer.dart';
 
 class EditorScreenTemplate extends StatelessWidget {

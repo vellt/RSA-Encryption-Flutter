@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:rsa_secured_messages_app/constants.dart';
+import 'package:rsa_secured_messages_app/utilities/constants.dart';
 import 'package:rsa_secured_messages_app/pages/result_page.dart';
 import 'package:rsa_secured_messages_app/pages/error_page.dart';
+import 'package:rsa_secured_messages_app/utilities/rsa_brain.dart';
 import 'package:rsa_secured_messages_app/widgets/appbar_icon_button.dart';
 import 'package:rsa_secured_messages_app/widgets/editor_screen_template.dart';
 import 'package:sizer/sizer.dart';
-import 'package:rsa_secured_messages_app/untils/rsa_brain.dart';
 
 late RSABrain _myRsaBrain;
 
