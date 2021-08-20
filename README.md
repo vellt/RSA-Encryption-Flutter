@@ -6,6 +6,13 @@ Make sensitive conversations safe. Give your conversation partner your public ke
 
 ![Web 1280 – 1](https://user-images.githubusercontent.com/61885011/129395300-34399bcf-bc45-4e15-94cd-4cec528feae7.png)
 
+<br>
+
+## Operating Principle
+
+![](https://user-images.githubusercontent.com/61885011/130268946-9b7ba6d4-0e9f-45d8-b8d1-40940c55e9fd.png)
+
+
 
 
 
