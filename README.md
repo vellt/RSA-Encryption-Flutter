@@ -2,7 +2,11 @@
  
 Make sensitive conversations safe. Give your conversation partner your public key to encrypt the message for you, which only you can decrypt.
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=vellt/rsa_encryption_flutter) ![Web 1280 – 1]( https://img.shields.io/badge/-open%20source-green)
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=vellt/rsa_encryption_flutter)
+![Web 1280 – 1]( https://img.shields.io/badge/-open%20source-green)
+[![License](https://img.shields.io/badge/license-MIT-yellow)](./LICENSE)
+
 
 <details>
 <summary><strong>Operating Principle</strong></summary>
